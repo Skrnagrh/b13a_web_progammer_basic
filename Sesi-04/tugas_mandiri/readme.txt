@@ -39,8 +39,6 @@ show result
 9. Pengguna dapat mengulangi langkah 4-8 dengan memasukkan nilai panjang jari-jari yang berbeda.
 
 ### Pseudo Code
-
-```plaintext
 1. Buat fungsi hitungLuasDanKeliling():
 2.    Ambil nilai panjang jari-jari dari elemen dengan id "radius" dan simpan dalam variabel radius (konversi ke float).
 3.    Hitung luas lingkaran dengan rumus: luas = π * radius * radius.
@@ -48,7 +46,5 @@ show result
 5.    Buat variabel result dengan format: "Luas lingkaran adalah: luas, Keliling lingkaran adalah: keliling".
 6.    Set innerHTML dari elemen dengan id "result" menjadi nilai result.
 7. Akhir fungsi hitungLuasDanKeliling.
-
 8. Saat tombol "Hitung" diklik:
 9.    Jalankan fungsi hitungLuasDanKeliling().
-```
