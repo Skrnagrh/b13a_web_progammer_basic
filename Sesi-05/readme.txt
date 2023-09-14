@@ -7,5 +7,3 @@ catatan : batch 13a web sesi 05
 5. Belajar Function
 6. Belajar Function & Event (Gabungan)
 7. Belajar Tipe NUmber
-
-# github 
