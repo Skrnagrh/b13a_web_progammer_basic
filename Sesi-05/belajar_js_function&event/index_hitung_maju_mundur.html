@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Maju dan Mundur di Javascript</title>
+</head>
+<body>
+
+    <h1>Hitung Maju dan Mundur di Javascript</h1>
+
+    <h1 id="nilai">10</h1>
+    <button id="mundurButton" onclick="mundurNilai()">Mundur</button>
+    <button id="majuButton" onclick="majuNilai()">Maju</button>
+
+    <script>
+        // untuk nilai awal
+        let nilai = 10;
+
+        // untuk mengubah dan memperbarui nilai
+        function updateNilai() {
+            document.getElementById("nilai").textContent = nilai;
+        }
+
+        // untuk menambah nilai
+        function majuNilai() {
+            nilai++;
+            updateNilai();
+        }
+
+        // untuk mengurangi nilai
+        function mundurNilai() {
+            nilai--;
+            updateNilai();
+        }
+
+        // untuk memperbarui nilai awal pada halaman pertama kali dimuat
+        updateNilai();
+    </script>
+
+</body>
+</html>

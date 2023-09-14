@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Function di JavaScript</title>
+  </head>
+  <body>
+    <button onclick="tampilkanNama()">Klik Disini</button>
+    <div id="hasil"></div>
+
+    <script>
+      var nama = helloNama("Sukron", "Agrh");
+
+      function tampilkanNama() {
+        document.getElementById("hasil").innerHTML = nama;
+      }
+
+      function helloNama(namaDepan, namaBelakang) {
+        return `Nama Depan: ${namaDepan} <br> Nama Belakang: ${namaBelakang}`;
+      }
+    </script>
+  </body>
+</html>

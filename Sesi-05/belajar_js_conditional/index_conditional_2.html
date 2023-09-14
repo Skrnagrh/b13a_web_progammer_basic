@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Kondisional di JavaScript</title>
+</head>
+<body>
+    <h1>Belajar Kondisional di JavaScript</h1>
+    
+    <label>Kondisi : </label>
+    <input type="text" id="kondisi"><br><br>
+    <button onclick="cekLapar()">Cek Lapar Nich</button>
+    <p id="hasil"></p>
+
+    <script>
+        function cekLapar(){
+            let kondisi = document.getElementById("kondisi").value
+            let hasil = ""
+            if (kondisi === "lapar"){
+                // untuk hasil
+                hasil = "Waktunya makan guys"
+            }else {
+                // untuk hasil
+                hasil = "Tar dulu belum waktunya makan guys"
+            }
+            document.getElementById("hasil").innerHTML = hasil
+        }
+    </script>
+</body>
+</html>
