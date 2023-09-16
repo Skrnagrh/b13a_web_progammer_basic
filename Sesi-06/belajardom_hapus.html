@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Hapus DOM JavaScript</title>
+</head>
+<body>
+    <h2 id="judul2">Delete Disini!</h2>
+
+    <script>
+        // memilih elemen berdasarkan ID
+        var h2 = document.getElementById('judul2');
+
+        // menghapus elemen yang  sudah dipilih
+        h2.remove();
+
+        console.log("Elemen sudah di hapus");
+        console.log(h2);
+    </script>
+</html>
