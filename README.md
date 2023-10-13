@@ -1,3 +1,3 @@
 # b13a_web_progammer_basic
 
-Belajar Fundamental Web
+Belajar Langkah Fundamental Untuk Menjadi Web Programmer
